@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:watchlist/watchlist_home_screen.dart';
+import 'package:watchlist/contacts_list.dart';
+
 
 
 class TabsScreen extends StatefulWidget {
@@ -33,11 +34,11 @@ class _TabsScreenState extends State<TabsScreen> {
       ),
       body: const TabBarView(children: <Widget>[
         
-        WatchlistHomeScreen(tabNo: 0,),
-        WatchlistHomeScreen(tabNo: 1,),
-        WatchlistHomeScreen(tabNo: 2,),
-        WatchlistHomeScreen(tabNo: 3,),
-        WatchlistHomeScreen(tabNo: 4,),
+        ContactsList(),
+        ContactsList(),
+        ContactsList(),
+        ContactsList(),
+        ContactsList(),
       ]),
       ),
       

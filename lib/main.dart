@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'package:watchlist/providers/contacts.dart';
-import 'package:watchlist/loading_indicator.dart';
-
 import 'package:watchlist/tabs_screen.dart';
 
 void main() {
@@ -35,7 +32,7 @@ class MyApp extends StatelessWidget {
         routes: {
           TabsScreen.routeName :(ctx) => const TabsScreen(),
         },
-        home: const LoadingIndicator(),
+        home: const TabsScreen(),
       ),
     );
   }

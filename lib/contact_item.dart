@@ -19,7 +19,7 @@ class ContactItem extends StatelessWidget {
           
           title: Padding(
             padding: const EdgeInsets.only(top:10.0,bottom:25.0),
-            child: Text(contact.name,style: TextStyle(fontSize:20.0 ),),
+            child: Text(contact.name,style: const TextStyle(fontSize:20.0 ),),
           ),
           subtitle: 
           // Padding(
